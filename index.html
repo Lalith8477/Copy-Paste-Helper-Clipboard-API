@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clipboard API Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Copy-Paste Helper</h1>
+
+        <div class="textarea-cont">
+            <textarea id="textArea" placeholder="Write something or paste from clipboard..."></textarea>
+        </div>
+
+        <div class="buttons-cont">
+            <button class="copy-btn" id="copyBtn">Copy Text</button>
+            <button class="paste-btn" id="pasteBtn">Paste Text</button>
+        </div>
+
+        <button class="clear-btn" id="clearBtn">Clear</button>
+
+        <div class="message-cont" id="messageCont"></div>
+
+        <div class="info-cont">
+            <strong>💡 How it works:</strong>
+            Click "Copy Text" to copy the textarea content to your clipboard. Click "Paste Text" to paste clipboard
+            content into the textarea. Note: Your browser may ask for clipboard permissions.
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
